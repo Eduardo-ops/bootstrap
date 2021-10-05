@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Alinhamento de Texto</title>
+</head>
+
+<body style="margin-bottom: 200px; padding: 16px;">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- Parágrafo justificado -->
+    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum
+        quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero,
+        suscipit porttitor risus magna vel lorem.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula
+        fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna
+        vel lorem.</p>
+
+    <br>
+    <br>
+
+    <!-- 
+        Alinhamento responsivo de texto
+        Indicardor de tamanho de telas: sm, md, lg, xl
+        Alinhamento: left, center e right
+    -->
+
+    <!-- Responsividade irá funcionar em telas maiores ou igual a 576px = small -->
+    <p class="text-sm-right">tela &gt;= 576px</p>
+
+    <!-- Responsividade irá funcionar em telas maiores ou igual a 768px = medium -->
+    <p class="text-md-right">tela &gt;= 768px</p>
+
+    <!-- Responsividade irá funcionar em telas maiores ou igual a 992px = large -->
+    <p class="text-lg-right">tela &gt;= 992px</p>
+
+    <!-- Responsividade irá funcionar em telas maiores ou igual a 1200px = extra large -->
+    <p class="text-xl-right">tela &gt;= 1200px</p>
+
+
+    <br>
+    <br>
+
+    <h1>Elementos block transformados em inline</h1>
+    <!-- Transformando elemento block para inline -->
+    <!-- A propriedade bg-success é somente para dar a cor de fundo. -->
+    <h1 class="bg-success d-inline">Lorem ipsum dolor</h1>
+    <p class="bg-success d-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <br>
+    <br>
+
+    <h1>Elementos inline transformados em block</h1>
+    <!-- Transformando elemento inline para block -->
+    <span class="bg-success d-block">Lorem ipsum dolor 1</span>
+    <br>
+    <span class="bg-success d-block">Lorem ipsum dolor 2</span>
+
+    <br>
+    <br>
+
+
+    <div class="bg-warning">
+        <!-- 
+            Transformando elementos em inline-block, híbridos, com eles, é permitido implementar
+            espaçamentos, coisa que elemento somente inline não acontece.
+        -->
+        <h3 class="bg-success d-inline-block">Lorem ipsum</h3>
+        <h3 class="bg-success d-inline-block" style="margin-top: 20px;">Lorem ipsum dolor</h3>
+    </div>
+
+</body>
+
+</html>
