@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Tamanhos e Bordas</title>
+</head>
+
+<body style="margin-bottom: 200px; margin-top: 20px; width: 600px; margin: 0 auto;">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- Classes de largura -->
+    <div class="bg-primary mt-5 w-25">Width 25%</div>
+    <div class="bg-primary w-50">Width 50%</div>
+    <div class="bg-primary w-75">Width 75%</div>
+    <div class="bg-primary w-100">Width 100%</div>
+    <div class="bg-primary w-auto">Width auto</div>
+
+    <!-- Classes de altura -->
+    <div style="height: 300px; margin-bottom: 60px;">
+        <div class="bg-primary mt-5 d-inline-block h-25">heigth 25%</div>
+        <div class="bg-primary d-inline-block h-50">heigth 50%</div>
+        <div class="bg-primary d-inline-block h-75">heigth 75%</div>
+        <div class="bg-primary d-inline-block h-100">heigth 100%</div>
+        <div class="bg-primary d-inline-block h-auto">heigth auto</div>
+    </div>
+
+    <!-- 
+        Bordas
+        border -> todas as bordas
+        border-top -> todas superior
+        border-bottom -> todas as bordas inferiores
+        border-right -> todas as bordas direita
+        border-left -> todas as bordas esquerdas
+
+        Cores de bordas
+        Border: primary, secondary, success, info, warning
+        danger, light, dark, white
+     -->
+    <div class="bg-white mb-2 border border-primary">Border general</div>
+    <div class="bg-white border-top border-secondary">Border top</div>
+    <div class="bg-white border-bottom border-warning">Border bottom</div>
+    <div class="bg-white border-right border-success">Border bottom</div>
+    <div class="bg-white border-left border-danger">Border-left</div>
+
+    <!-- 
+        Border Radius
+        opções: rounded, rounded-top, rounded-right,
+        rounded-left, rounded-circle, rounded-bottom
+     -->
+    <div class="bg-white mb-2 p-5 border border-primary rounded">Border general</div>
+    <div class="bg-white border p-5 border-secondary rounded-top">Border top</div>
+    <div class="bg-white border p-5 border-warning rounded-right">Border bottom</div>
+    <div class="bg-white border p-5 border-success rounded-left">Border bottom</div>
+    <div class="bg-white border p-5 border-danger rounded-circle">Border-left</div>
+    <div class="bg-white border p-5 border-danger rounded-bottom">Border-left</div>
+
+
+</body>
+
+</html>
