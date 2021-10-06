@@ -1,0 +1,31 @@
+
+/* 
+    Small devices (landscape phones)
+    Ao atingir a proporção de tamanho ou ser maior 
+*/
+@media (min-width: 576px) {
+    body{
+        background: red;
+    }
+ }
+
+/* Media devices (tables, 768px e superior) */
+@media (min-width: 768px) { 
+    body{
+        background: blue;
+    }
+}
+
+/* Large devices (desktops, 992px e superior) */
+@media (min-width: 992px) {
+    body{
+        background: orange;
+    }
+ }
+
+/* Extra large devices (larges desktops, 1280px e superior) */
+@media ( min-width: 1280px) {
+    body{
+        background: yellow;
+    }
+ }
