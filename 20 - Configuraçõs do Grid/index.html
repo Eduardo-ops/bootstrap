@@ -33,7 +33,73 @@
 
 <body style="margin-bottom: 200px; padding: 20px;">
 
-    
+    <div class="container marcador-container">
+
+        <h2>Largura Fixa</h2>
+        <div class="row" style="border: 1px solid red;">
+            <div class="marcador col">Área 1</div>
+            <div class="marcador col">Área 2</div>
+            <div class="marcador col">Área 3</div>
+            <div class="marcador col">Área 4</div>
+        </div>
+
+        <h2>Largura automática (auto-layout)</h2>
+        <div class="row" style="border: 1px solid red;">
+            <div class="marcador col">Área 1</div>
+            <div class="marcador col">Área 2</div>
+            <div class="marcador col-6">Área 3</div>
+        </div>
+
+        <h2>Largura Empilhada</h2>
+        <div class="row" style="border: 1px solid red;">
+            <div class="marcador col-sm">Área 1</div>
+            <div class="marcador col-sm">Área 2</div>
+            <div class="marcador col-sm">Área 3</div>
+        </div>
+
+        <h2>Largura igual Empilhada</h2>
+        <div class="row" style="border: 1px solid red;">
+            <div class="marcador col-sm">Área 1</div>
+            <div class="marcador col-sm">Área 2</div>
+            <div class="marcador col-sm">Área 3</div>
+        </div>
+
+        <h2>Ordenando</h2>
+        <div class="row" style="border: 1px solid red;">
+            <div class="marcador col-md-4 order-2">Área 1</div>
+            <div class="marcador col-md-4 order-3">Área 2</div>
+            <div class="marcador col-md-4 order-1">Área 3</div>
+        </div>
+
+        <h2>offset</h2>
+        <div class="row" style="border: 1px solid red;">
+            <!-- 
+                Temos uma área com seis colunas, usaremos o "offset" para ajustar a posição
+                dos conteúdos, como foi definido a área com seis colunas, utilizamos offset-3
+                para que assim, causa o efeito de centralizar.
+            -->
+            <div class="marcador col-md-6 offset-3">Login...</div>
+        </div>
+
+        <h2>offset com múltiplos alinhamento</h2>
+        <div class="row" style="border: 1px solid red;">
+            <div class="marcador col-md-3">Conteúdo 1</div>
+            <div class="marcador col-md-3 offeset-md-6">Conteúdo 2</div>
+        </div>
+
+        <h2>Aninhamento</h2>
+        <div class="row">
+            <div class="col-md-6" style="border: 1px solid red;">
+                Conteúdo 1
+                <div class="row">
+                    <div class="col-md-6 marcador">
+                        Conteúdo 2
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 
