@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Ícones bootstrap -->
+    <link href="iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+    <!-- Icones Fontawesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <title>Classes Flexbox</title>
+</head>
+
+<body style="margin-bottom: 200px; padding: 20px;">
+
+    <div class="container">
+
+        <h2>Flex container e flex itens (d-flex, flex-row, flex-column, flex-ow-reverse)</h2>
+        <!-- A classe d-flex também transfoma nossa caixa em flex container -->
+        <div class="mb-5 borda caixa d-flex flex-row">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+        </div>
+
+        <h2>Alinhamento horizontal: justify-content-ALINHAMENO (start, center, end, around e between)</h2>
+        <div class="caixa borda d-flex justify-content-center">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+        </div>
+
+        <h2>Alinhamento vertical: align-items-ALINHAMENTO (start, center, end, baseline e stretch)</h2>
+        <div class="caixa borda d-flex align-items-end">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+        </div>
+
+        <h2>Alinhamento self: align-items-ALINHAMENTO (start, center, end, baseline e stretch)</h2>
+        <div class="caixa borda d-flex">
+            <div class="item align-self-start">Flex item 1</div>
+            <div class="item align-self-center">Flex item 2</div>
+            <div class="item align-self-end">Flex item 3</div>
+            <div class="item align-self-baseline">Flex item 3</div>
+            <div class="item align-self-stretch">Flex item 3</div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

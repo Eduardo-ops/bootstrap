@@ -1,0 +1,24 @@
+.marcador{
+    background: #fe9d9d;
+    border: 1px solid #f94646;
+    height: 100px;
+}
+
+.marcador-container{
+    background: #5bf946;
+    border: 1px solid #36ae26;
+}
+
+.borda{
+    border: 1px solid blue;
+}
+
+.caixa {
+    background: #F5F5F5;
+    height: 200px;
+}
+
+.item{
+    border: 1px solid black;
+    padding: 5px;
+}
