@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Ícones bootstrap -->
+    <link href="iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+    <!-- Icones Fontawesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <title>Configuração Grid layout</title>
+</head>
+
+<body style="margin-bottom: 200px; padding: 20px;">
+
+    <div class="container">
+
+        <h2>Alinhamento Vertical (Align-items-ALINHAMENTO: start, center, end)</h2>
+        <div class="marcador borda row align-items-center">
+            <div class="col borda">Área 1</div>
+            <div class="col borda">Área 2</div>
+            <div class="col borda">Área 3</div>
+        </div>
+
+        <h2>Alinhamento Vertical (Align-items-ALINHAMENTO: start, center, end)</h2>
+        <div class="marcador borda row">
+            <div class="col borda row align-self-start">Área 1</div>
+            <div class="col borda align-self-center">Área 2</div>
+            <div class="col borda align-self-end">Área 3</div>
+        </div>
+
+        <h2>Alinhamento Horizontal de colunas (justify-content-ALINHAMENTO: start, center, end)</h2>
+        <div class="row borda justify-content-center">
+            <div class="marcador col-2">Área 1</div>
+            <div class="marcador col-2">Área 2</div>
+            <div class="marcador col-2">Área 3</div>
+        </div>
+
+        <h2>Distribuição (justify-content-ALINHAMENTO: around, between, end)</h2>
+        <div class="row borda justify-content-around">
+            <div class="marcador col-2">Área 1</div>
+            <div class="marcador col-2">Área 2</div>
+            <div class="marcador col-2">Área 3</div>
+            <div class="marcador col-2">Área 4</div>
+        </div>
+
+        <h2>Removendo espaçamentos</h2>
+        <div class="row marcador">
+            <div class="borda col-2">Área 1</div>
+            <div class="borda col-2">Área 2</div>
+            <div class="borda col-2">Área 3</div>
+            <div class="borda col-2">Área 4</div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
